@@ -32,7 +32,7 @@ const Navbar = () => {
 
                     </li>)}
                 </ul>
-                <div className={'flex flex-col text-shadow-white'}>
+                <div className={'flex flex-col text-black/60'}>
                     <p className={'absolute top-0 '}>{`${hours}:${minutes}:${seconds}`}</p>
                     <p className={''}>{date}</p>
 
