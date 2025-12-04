@@ -5,6 +5,7 @@ const App = () => {
         <main>
             <Navbar/>
             <Welcome/>
+
         </main>
     )
 }
