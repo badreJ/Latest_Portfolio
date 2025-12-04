@@ -18,9 +18,9 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className={'relative'}>
+            <div className='relative'>
                 <img src="/images/logo.png" alt="logo"/>
-                <p className={"font-bold"}> Badre's Portfolio</p>
+                <p className="font-bold"> Badre's Portfolio</p>
                 <ul>
                     {navLinks.map(item=><li key={item.id}>{item.name}</li>)}
                 </ul>
@@ -32,9 +32,9 @@ const Navbar = () => {
 
                     </li>)}
                 </ul>
-                <div className={'flex flex-col text-black/60'}>
-                    <p className={'absolute top-0 '}>{`${hours}:${minutes}:${seconds}`}</p>
-                    <p className={''}>{date}</p>
+                <div className='flex flex-col text-black/60'>
+                    <p className='absolute top-0 '>{`${hours}:${minutes}:${seconds}`}</p>
+                    <p>{date}</p>
 
 
                 </div>

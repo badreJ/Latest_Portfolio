@@ -81,8 +81,8 @@ const Welcome = () => {
             <p ref={subtitleRef}>{renderText("hey, I'm Badre! Welcome to my",'tex3xl font-georama',100)}</p>
             <h1 ref={titleRef} className='mt-7'>{renderText("portfolio","text-5xl italic font-georama") }</h1>
 
-            <div className={'small-screen'}>
-                <p className={'text-black/60'}>Design for Desktop/Tabled screens only</p>
+            <div className='small-screen'>
+                <p className='text-black/60'>Design for Desktop/Tabled screens only</p>
             </div>
         </section>
     )
